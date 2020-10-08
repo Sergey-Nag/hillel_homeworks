@@ -9,9 +9,6 @@ alert(returnMathResult(inputNumber1, inputNumber2, inputOperator));
 function returnMathResult(str1, str2, operator) {
   let result = "Ответ:\n" + str1 + operator + str2 + "= ";
 
-  console.log(str1, str2, operator);
-  console.log(str1, !!str1, !!+str1);
-
   if (str1 !== "" && !!str1 && str2 !== "" && !!str2) {
     let num1 = +str1;
     let num2 = +str2;
