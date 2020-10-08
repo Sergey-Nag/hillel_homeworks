@@ -11,7 +11,7 @@ function returnNaturalNumber(val1, val2) {
   if (val1 !== "" && !!val1 && val2 !== "" && !!val2) {
     const num1 = Math.trunc(+val1);
     const num2 = Math.trunc(+val2);
-
+    
     if (num1 >= 0 && num2 > 0) {
 
       if (num1 > num2) result += Math.round(num1 / num2) * num2;
